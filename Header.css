@@ -1,0 +1,27 @@
+/* src/components/Header/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0f79af; /* Amazon Prime blue */
+    color: #fff;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  

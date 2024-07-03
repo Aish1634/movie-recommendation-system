@@ -1,0 +1,117 @@
+/* src/components/Search.css */
+
+.search {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* .search-results {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted to auto-fill */
+    /* gap: 20px;
+  }
+  
+  .search-result {
+    text-align: left;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-result img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Ensure no underline for movie title and release date */
+  /* .search-result h3,
+  .search-result p {
+    text-decoration: none;
+    color: black; /* Set text color */
+  /* }
+  
+  /* Add hover effect to movie cards */
+  /* .search-result:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   /* */ 
+    /* Styling for the movie grid */
+  .search-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for each movie card */
+  .search-result {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Ensure center alignment */
+    text-decoration: none; /* Remove underline from movie card */
+  }
+  
+  /* Styling for movie poster image */
+  .search-result img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Styling for movie title */
+  .search-result h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none; /* Remove underline from title */
+  }
+  
+  /* Styling for movie release date */
+  .search-result p {
+    font-size: 0.9rem;
+    color: #666;
+    text-decoration: none; /* Remove underline from release date */
+  }
+  
+  /* Ensure no underline for links in movie card */
+  .search-result a {
+    text-decoration: none;
+    color: inherit; /* Ensure the link inherits the color from the parent */
+  }
+  
+  /* Add hover effect to movie cards */
+  .search-result:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
